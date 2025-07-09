@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/settings/
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+title: Homelab Nfworking
+
+background:
+   image: https://images8.alphacoders.com/133/thumb-1920-1330032.jpeg 
+   blur: sm
+   saturate: 100
+   brightness: 100
+   opacity: 100

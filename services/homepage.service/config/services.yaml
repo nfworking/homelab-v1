@@ -1,0 +1,28 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+
+-  Homelab EntryPoints:
+    - HomePage:
+        href: http://localhost:3000
+        description: Homepage for the Homelab
+        icon: docker.png
+        ping: localhost
+        widget:
+          type: npm
+          url: http://proxyservice.local
+          username: nfworking@lurking.site  
+          password: runcorn.1
+
+- My Second Group:
+    - My Second Service:
+        href: http://localhost/
+        description: Homepage is the best
+
+- My Third Group:
+    - My Third Service:
+        href: http://localhost/
+        description: Homepage is 😎
+
+
+

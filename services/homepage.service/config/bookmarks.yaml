@@ -1,0 +1,27 @@
+---
+- Repositories:
+  - Homelab:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/nfworking/homelab
+  - Website:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/nfworking/website
+  - Templates:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/nfworking/templates
+  - Scripts:
+    - icon: si-github-#FFFFFF
+      href: https://github.com/nfworking/scripts
+
+
+
+- Cloud Services:
+  - Cloudflare:
+    - icon: cloudflare.png
+      href: https://dash.cloudflare.com
+
+- Cloud Platforms:
+  - Microsoft Azure:
+    - icon: azure.png
+      href: https://portal.azure.com
+ 
