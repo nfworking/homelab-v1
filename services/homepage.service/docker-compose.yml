@@ -12,6 +12,10 @@ services:
       - traefik.enable=true
       - traefik.http.routers.homepage-http.rule=Host(`homepage.local`)
       - traefik.http.routers.homepage-http.entrypoints=web
+      - traefik.http.routers.homepage-https.tls=true
+      - traefik.http.routers.homepage-https.tls.certresolver=cloudflare
+      - traefik.http.routers.homepage-https.entrypoints=websecure
+      - traefik.http.routers.homepage-https.rule=Host(`homepage.lurking.site`)
     ports:
       - 3000:3000
     volumes:

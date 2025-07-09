@@ -572,3 +572,211 @@
   }
 ]
 [2025-07-09T02:06:00.068Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:46.033Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:46.052Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:46.054Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:49.122Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:49.132Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:49.133Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:50.617Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:50.622Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:50.624Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:52.139Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:52.146Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:52.148Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:54.447Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:54.451Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:54.453Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:31:58.768Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:31:58.771Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:31:58.773Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:32:08.742Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:32:08.745Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:32:08.745Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:32:47.586Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:32:47.594Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:32:47.596Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:32:53.276Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:32:53.279Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:32:53.280Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:32:59.483Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:32:59.486Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:32:59.487Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:33:08.644Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:33:08.645Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:33:08.646Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:47:41.753Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:47:41.767Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:47:41.769Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T02:48:54.057Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T02:48:54.063Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T02:48:54.064Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T03:00:21.975Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T03:00:21.997Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T03:00:22.000Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T03:00:26.957Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T03:00:26.975Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T03:00:26.977Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T03:00:34.880Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T03:00:34.884Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T03:00:34.886Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
