@@ -819,3 +819,40 @@
   }
 ]
 [2025-07-09T03:04:14.329Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T03:14:46.565Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T03:14:46.570Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T03:14:46.571Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T03:14:50.190Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T03:14:50.196Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:80
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:80) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 80
+  }
+]
+[2025-07-09T03:14:50.197Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":80}]}}
+[2025-07-09T04:24:39.738Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T04:24:39.747Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T04:24:39.748Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
