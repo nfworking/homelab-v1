@@ -16,6 +16,7 @@ services:
       - traefik.http.routers.homepage-https.tls.certresolver=cloudflare
       - traefik.http.routers.homepage-https.entrypoints=websecure
       - traefik.http.routers.homepage-https.rule=Host(`homepage.lurking.site`)
+     
     ports:
       - 3000:3000
     volumes:

@@ -856,3 +856,135 @@
   }
 ]
 [2025-07-09T04:24:39.748Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T06:30:02.212Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T06:30:02.228Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T06:30:02.231Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T06:32:40.125Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T06:32:40.128Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T06:32:40.129Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:43:10.103Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:43:10.114Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:43:10.116Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:43:25.775Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:43:25.794Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:43:25.798Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:44:53.820Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:44:53.828Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:44:53.831Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:45:34.058Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:45:34.061Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:45:34.062Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:48:11.501Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:48:11.508Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:48:11.509Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:48:46.758Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:48:46.772Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:48:46.775Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:48:47.943Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:48:47.949Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:48:47.957Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:49:02.386Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:49:02.392Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:49:02.394Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:49:14.417Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:49:14.426Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:49:14.432Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-09T08:49:16.982Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-09T08:49:16.984Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-09T08:49:16.985Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
