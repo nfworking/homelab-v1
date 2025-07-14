@@ -1,0 +1,29 @@
+name: portainer
+
+services:
+  portainer-ce:
+    image: portainer/portainer-ce:lts
+    container_name: portainer
+    restart: always
+    networks:
+      - frontend
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.portainer-https.tls=true
+      - traefik.http.routers.portainer-https.tls.certresolver=cloudflare
+      - traefik.http.routers.portainer-https.entrypoints=websecure
+      - traefik.http.routers.portainer-https.rule=Host(`portainer.lurking.site`)
+      - traefik.http.services.portainer-https.loadbalancer.server.port=9000
+      - traefik.http.services.portainer-https.loadbalancer.server.scheme=http
+     
+volumes:
+  portainer_data:
+    external: true
+    name: portainer_data
+
+networks:
+  frontend:
+    external: true

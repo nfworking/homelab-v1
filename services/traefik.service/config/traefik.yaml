@@ -1,8 +1,6 @@
 global:
   checkNewVersion: false
   sendAnonymousUsage: false
-logs:
-  level: DEBUG
 api:
   dashboard: true
   insecure: true
@@ -14,11 +12,11 @@ entryPoints:
 certificatesResolvers:
   cloudflare:
     acme:
-      email: tidalfarmer1432@outlook.com  # <-- Change this to your email
+      email: tidalfarmer1432@outlook.com  
       storage: /var/traefik/certs/cloudflare-acme.json
       caServer: "https://acme-v02.api.letsencrypt.org/directory"
       dnsChallenge:
-        provider: cloudflare  # <-- (Optional) Change this to your DNS provider
+        provider: cloudflare
         resolvers:
           - "1.1.1.1:53"
           - "8.8.8.8:53"
@@ -28,5 +26,4 @@ providers:
     endpoint: "unix:///var/run/docker.sock"
     exposedByDefault: false
     watch: true
-
 

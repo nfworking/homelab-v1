@@ -3,16 +3,21 @@
 # https://gethomepage.dev/configs/services/
 
 -  Homelab EntryPoints:
-    - HomePage:
-        href: http://localhost:3000
-        description: Homepage for the Homelab
-        icon: docker.png
+    - Gitlab:
+        href: https://gitlabf.lurking.site
+        description: Local Gitlab instance
+        icon: gitlab.png
         ping: localhost
         widget:
-          type: npm
-          url: http://proxyservice.local
-          username: nfworking@lurking.site  
-          password: runcorn.1
+         type: gitlab
+         url: https://gitlabf.lurking.site
+         key: glpat-qC_Xmy6RG2Q8VcYuf6ZQ
+         user_id: 1
+    - Traefik:
+        widget:
+        type: traefik
+        url: http://localhost:8080
+        
 
 - My Second Group:
     - My Second Service:
