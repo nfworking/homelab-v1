@@ -8,11 +8,7 @@
         description: Local Gitlab instance
         icon: gitlab.png
         ping: localhost
-        widget:
-         type: gitlab
-         url: https://gitlabf.lurking.site
-         key: glpat-qC_Xmy6RG2Q8VcYuf6ZQ
-         user_id: 1
+
     - Traefik:
         widget:
         type: traefik
