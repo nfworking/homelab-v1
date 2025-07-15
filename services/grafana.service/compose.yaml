@@ -1,0 +1,28 @@
+volumes:
+  grafana-data:
+    driver: local
+
+networks:
+  frontend:
+    external: true
+
+services:
+  grafana:
+    image: docker.io/grafana/grafana-oss:latest
+    container_name: grafana
+    networks:
+      - frontend
+    volumes:
+      - grafana-data:/var/lib/grafana
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.grafana.rule=Host(`grafana.lurking.site`)"
+      - "traefik.http.routers.grafana.entrypoints=websecure"
+      - "traefik.http.routers.grafana.tls=true"
+      - "traefik.http.routers.grafana.tls.certresolver=cloudflare"
+      - "traefik.http.services.grafana.loadbalancer.server.port=3000"
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://loki.lurking.site/loki/api/v1/push"
