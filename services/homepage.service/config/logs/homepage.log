@@ -988,3 +988,287 @@
   }
 ]
 [2025-07-09T08:49:16.985Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-13T23:23:13.956Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-13T23:23:13.975Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-13T23:23:13.976Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T00:23:59.734Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T00:23:59.740Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T00:23:59.741Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T00:33:54.245Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T00:33:54.250Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T00:33:54.253Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T01:24:18.055Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T01:24:18.066Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T01:24:18.076Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T01:24:48.132Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T01:24:48.140Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T01:24:48.142Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T01:29:21.882Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T01:29:21.916Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T01:29:21.919Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T02:39:40.308Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T02:39:40.314Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T02:39:40.316Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T02:53:22.860Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T02:53:22.865Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T02:53:22.868Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T02:53:27.744Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T02:53:27.753Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T02:53:27.755Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:07:42.537Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T03:07:42.540Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T03:07:42.545Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:07:46.158Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T03:07:46.160Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T03:07:46.161Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:07:48.066Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T03:07:48.072Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo ENOTFOUND proxyservice.local] {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T03:07:48.074Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3008,"code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:07:58.525Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T03:07:58.527Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T03:07:58.528Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:13:13.466Z] error: <httpProxy> Error calling http://proxyservice.local/api/tokens...
+[2025-07-14T03:13:13.471Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN proxyservice.local] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'proxyservice.local'
+  }
+]
+[2025-07-14T03:13:13.473Z] error: <npmProxyHandler> Error 500 logging into npm {"error":{"message":"Unknown error","url":"http://proxyservice.local/api/tokens","rawError":[500,{"errno":-3001,"code":"EAI_AGAIN","syscall":"getaddrinfo","hostname":"proxyservice.local"}]}}
+[2025-07-14T03:19:05.059Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/123456/associations_count...
+[2025-07-14T03:19:05.083Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:19:05.084Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/123456/associations_count
+[2025-07-14T03:33:54.070Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/123456/associations_count...
+[2025-07-14T03:33:54.073Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:33:54.074Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/123456/associations_count
+[2025-07-14T03:36:43.977Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:36:43.981Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:36:43.982Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:36:45.962Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:36:45.974Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:36:45.975Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:37:12.214Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:37:12.218Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:37:12.223Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:37:22.563Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:37:22.573Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:37:22.575Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:39:50.440Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:39:50.446Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:39:50.447Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:40:38.326Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:40:38.328Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:40:38.329Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:40:55.224Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:40:55.228Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:40:55.236Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count
+[2025-07-14T03:41:10.648Z] error: <httpProxy> Error calling https://gitlabf.lurking.site/api/v4/users/1/associations_count...
+[2025-07-14T03:41:10.650Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 127.0.0.1:443
+      at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:443) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 443
+  }
+]
+[2025-07-14T03:41:10.651Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://gitlabf.lurking.site/api/v4/users/1/associations_count

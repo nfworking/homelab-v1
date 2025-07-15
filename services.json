@@ -1,0 +1,163 @@
+{
+  "homelab": {
+    "network": {
+      "subnet": "192.168.1.0/24",
+      "reserved_ranges": {
+        "machine_1": "192.168.1.20-192.168.1.28",
+        "machine_2": "192.168.1.29-192.168.1.35",
+        "machine_3": "192.168.1.36",
+        "machine_4": "192.168.1.37"
+      },
+      "dns_domain": "lab.local",
+      "default_gateway": "192.168.1.36"
+    },
+    "machines": [
+      {
+        "id": "machine_1",
+        "name": "Proxmox Host 01",
+        "type": "hypervisor",
+        "host_os": "Proxmox VE",
+        "hardware": {
+          "ram_gb": 16,
+          "cpu": "4 cores, 4 threads",
+          "gpu": "None",
+          "storage_gb": 220
+        },
+        "ip_range": "192.168.1.20 - 192.168.1.28",
+        "virtual_machines": [
+          {
+            "name": "Docker Server 01",
+            "os": "Alpine Linux",
+            "specs": {
+              "ram_gb": 4.6,
+              "cpu": "2 cores",
+              "gpu": "None",
+              "storage_gb": 64,
+              "ip": "192.168.1.21"
+            },
+            "purpose": "Central container server for monitoring, CI/CD, and reverse proxy",
+            "services": [
+              {
+                "name": "Grafana",
+                "purpose": "Metrics and monitoring dashboard"
+              },
+              {
+                "name": "Loki",
+                "purpose": "Centralized log aggregation"
+              },
+              {
+                "name": "GitLab",
+                "purpose": "Git-based source control and CI/CD pipelines"
+              },
+              {
+                "name": "Traefik",
+                "purpose": "Reverse proxy and automatic TLS with Cloudflare DNS challenge"
+              },
+              {
+                "name": "Homepage",
+                "purpose": "Homelab dashboard and service links"
+              },
+              {
+                "name": "Prometheus",
+                "purpose": "Time-series metrics collection for systems and apps"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "machine_2",
+        "name": "Proxmox Host 02",
+        "type": "hypervisor",
+        "host_os": "Proxmox VE",
+        "hardware": {
+          "ram_gb": 16,
+          "cpu": "4 cores, 4 threads",
+          "gpu": "None",
+          "storage_gb": 220
+        },
+        "ip_range": "192.168.1.29 - 192.168.1.35",
+        "virtual_machines": [],
+        "notes": "Available for future services or VM expansions such as backups, dev environments, or isolated test networks"
+      },
+      {
+        "id": "machine_3",
+        "name": "Windows Server",
+        "type": "bare-metal",
+        "os": "Windows Server",
+        "hardware": {
+          "ram_gb": 16,
+          "cpu": "4 cores, 4 threads",
+          "gpu": "AMD Radeon R5 340X",
+          "storage_gb": 220
+        },
+        "ip": "192.168.1.36",
+        "services": [
+          {
+            "name": "Routing and Remote Access",
+            "purpose": "Network gateway and VPN services"
+          },
+          {
+            "name": "Default Gateway",
+            "purpose": "Provides internet routing for the homelab"
+          },
+          {
+            "name": ".NET Builder and Environment",
+            "purpose": "Development and testing of .NET-based applications"
+          }
+        ]
+      },
+      {
+        "id": "machine_4",
+        "name": "Mac/Windows Multipurpose",
+        "type": "dual-boot",
+        "hardware": {
+          "ram_gb": 16,
+          "cpu": "4 cores, 4 threads",
+          "gpu": "AMD Radeon R5 340X",
+          "storage_gb": 220
+        },
+        "ip": "192.168.1.37",
+        "os": {
+          "macos": {
+            "purpose": "Development and Mac-specific software",
+            "services": [
+              "Xcode",
+              "MacOS utility and system apps"
+            ]
+          },
+          "windows": {
+            "purpose": "Gaming, Hyper-V testing, and general-purpose tasks",
+            "services": [
+              "Steam / Game clients",
+              "Hyper-V Server",
+              "Miscellaneous tools"
+            ]
+          }
+        }
+      }
+    ],
+    "recommendations": [
+      {
+        "area": "Monitoring",
+        "suggestion": "Install Node Exporter or Netdata on each host for extended metrics"
+      },
+      {
+        "area": "Backups",
+        "suggestion": "Use Proxmox Backup Server or Restic to backup critical VMs and volumes"
+      },
+      {
+        "area": "Security",
+        "suggestion": "Implement Tailscale or WireGuard for secure remote access"
+      },
+      {
+        "area": "DNS",
+        "suggestion": "Consider running a Pi-hole or local DNS (e.g., CoreDNS) for internal name resolution"
+      },
+      {
+        "area": "Storage Expansion",
+        "suggestion": "Look into network-attached storage (NAS) or an external disk pool for future scaling"
+      }
+    ]
+  }
+}

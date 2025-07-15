@@ -1,0 +1,15 @@
+Machine 1:
+Proxmox = 16GB, 4 core 4 processor, no GPU, 220GB storage 192.168.1.20 - 192.168.1.28
+Docker Server 01 = 4.6GB, 2 core, no GPU, 64GB storage, IP: 192.168.1.21  for other VM's Services: grafana, loki, gitlab, traefik, homepage, prometheus. Alpine Linux.
+
+Machine 2: 
+Proxmox = 16GB, 4 core 4 processor, no GPU, 220GB storage IP: 192.168.1.29 - 192.168.1.35
+Services and vms to be added 
+
+Machine 3: 
+Windows Server = 16GB, 4 core, 4 processor, AMD R5 340X, 220GB GB storage IP: 192.168.1.36. Services: Routing and Remote Access, Default Gateway, Windows .NET Builder and Enviroment
+
+Machine 4: 
+Macos Server / Multipurpose = 16GB, 4 core, 4 processor, AMD R5 340X (With Windows), 220GB Storage, IP: 192.168.1.37. Services: (Macos: Xcode, Macos Apps and Services) (Windows: Games, Hyper-v Server, Multipurpose)
+
+
