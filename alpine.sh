@@ -6,7 +6,7 @@
 # =============================
 
 # === Settings ===
-PUBKEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI...your_public_key_here"
+PUBKEY="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQlgso+mZGZAda9TLrWwZWgguh0m8AbnLWrJ8ZaYEg/G+vWBQlY3OmvC76YonboG3TWGZNLseWjerQAN9N8OQaU/wGWwfaBjSWf6s07pHwltEjyAWjw77Zcbm0B6Xww/oEdBne33FUSes+Ls//SGqycT64IeorMhfq2U8/JaKX+c0gYnlKMRlhkKkC9txRYJe7Ua6CrccvxkgUZ29qw9gEVsZtCzD0OVg5sPx73r+bFGW0NwDE38zbDtuiJDqg/xVROq46oQS6T0gyS98QzsXDaJYtCkwRz1xcjvEKOXlaUsFMKgVoTIGUPxBpeNLW1o76PgnvhNEAPrdWY9oZbZUdBirQkaCms95YyNKtpyiasaZa58yliNm+q5GTBplk7yg0UuXfdP7rrLZgZnqpBPTuxZxmw5MXD25Z1iREIXItNz3XwffaaubztwrtUL373rjp9Gw6iaDP2Ixvob3efKLctBR3fFy8TLH+KgLgD/rUOA3nf203Ya2FWt9k7hjQxC2VER5K+bQ66ChX/gcaTXG8y9xdTY97FfTMqvlZ3yYuqI1j0Npv3IYPHedx5iPhn21LKvLnmouC0ciEqQx/iNqXjDPxR0c8pq8kXBxPPFNJupflomRT6f5o/0AOjlTyNtHXAxJwgLlJBSxpioajPduBTdfXjQQU18/hNkKKh68t0Q== tidalfarmer1432@outlook.com"
 
 # === Enable Community Repo ===
 echo "[+] Enabling community repository..."
