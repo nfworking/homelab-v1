@@ -65,5 +65,9 @@ if [ "$CURRENT_USER" != "root" ]; then
     addgroup "$CURRENT_USER" docker
     echo "[!] You may need to log out and back in for group permissions to apply."
 fi
+# === Install Docker Compose Plugin ===
+echo "[+] Installing Docker Compose plugin..."
+apk add docker-compose-plugin
+
 
 echo "[✅] Setup complete. Docker and SSH are ready."
